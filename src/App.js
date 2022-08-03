@@ -17,7 +17,7 @@ function App() {
   const { isLoading, error, sendRequest: fetchTasks } = useHttp(
     {
       url:
-        "https://react-customhook-eb32e-default-rtdb.firebaseio.com/taks.json"
+        "https://react-hhtp-5f367-default-rtdb.firebaseio.com/tasks.json"
     },
     transformedTask
   );
